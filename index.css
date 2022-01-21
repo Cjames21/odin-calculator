@@ -1,0 +1,61 @@
+:root {
+    --themeMain: #6e9da8;
+    --themeText: "black";
+    --themeSecondary: #bbd2d7;
+    --themeBtnText: #adeeff;
+    --themeCalcClr: #467986;
+}
+
+body {
+    background-color: var(--themeMain);
+}
+
+.flex-container--calc {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 120px;
+    background-color: var(--themeCalcClr);
+}
+
+.calc-viewport {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+    padding-right: 8px;
+    background-color: var(--themeSecondary);
+}
+
+.calc-viewport p {
+    font-size: 2em;
+    font-weight:bold;
+}
+
+.cont-calc-buttons {
+    display: flex;
+    padding: 16px;
+}
+
+.btn-calc-numbers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.btn-calc {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    background-color: var(--themeSecondary);
+    color: var(--themeText);
+}
+
